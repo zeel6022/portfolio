@@ -19,7 +19,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
           <h1 className="text-2xl font-bold">
-            Zeel.
+            Zeel Viradiya.
           </h1>
 
           {/* Desktop Menu */}
@@ -373,7 +373,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
 
           <h1 className="text-xl font-bold">
-            Zeel.
+              Zeel Viradiya
           </h1>
 
           <p className="text-white/40 text-sm">
