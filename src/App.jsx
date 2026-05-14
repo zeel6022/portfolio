@@ -95,13 +95,18 @@ function App() {
             
 
             <div className="flex gap-5 flex-wrap">
-              <button className="px-7 py-4 rounded-2xl bg-cyan-400 text-black font-semibold hover:scale-105 transition">
-                View Projects
-              </button>
-
-              <button className="px-7 py-4 rounded-2xl border border-white/20 hover:bg-white/10 transition">
-                Contact Me
-              </button>
+              <a
+  href="#projects"
+  className="px-7 py-4 rounded-2xl bg-cyan-400 text-black font-semibold hover:scale-105 transition"
+>
+  View Projects
+</a>
+             <a
+  href="#contact"
+  className="px-7 py-4 rounded-2xl border border-white/20 hover:bg-white/10 transition"
+>
+  Contact Me
+</a>
               
                             <a
                 href="/resume.pdf"
@@ -116,7 +121,7 @@ function App() {
             <div className="flex gap-6 mt-10">
 
               <a
-                href="https://github.com/"
+                href="https://github.com/zeel6022"
                 target="_blank"
                 className="text-3xl text-white/60 hover:text-cyan-400 transition"
               >
@@ -124,7 +129,7 @@ function App() {
               </a>
 
               <a
-                href="https://linkedin.com/"
+                href="https://www.linkedin.com/in/zeel-viradiya-1645b3273/"
                 target="_blank"
                 className="text-3xl text-white/60 hover:text-cyan-400 transition"
               >
@@ -344,13 +349,20 @@ function App() {
 
           <div className="flex flex-wrap justify-center gap-6">
 
-            <button className="px-8 py-4 rounded-2xl bg-cyan-400 text-black font-semibold hover:scale-105 transition">
-              Email Me
-            </button>
+            <a
+  href="mailto:your@email.com"
+  className="px-8 py-4 rounded-2xl bg-cyan-400 text-black font-semibold hover:scale-105 transition"
+>
+  Email Me
+</a>
 
-            <button className="px-8 py-4 rounded-2xl border border-white/20 hover:bg-white/10 transition">
-              LinkedIn
-            </button>
+           <a
+  href="https://www.linkedin.com/in/zeel-viradiya-1645b3273/"
+  target="_blank"
+  className="px-8 py-4 rounded-2xl border border-white/20 hover:bg-white/10 transition"
+>
+  LinkedIn
+</a>
 
           </div>
         </div>
