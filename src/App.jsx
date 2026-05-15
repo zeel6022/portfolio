@@ -77,6 +77,7 @@ function App() {
   initial={{ opacity: 0, y: 80 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.8 }}
+  className="md:mt-30 lg:mt-20"
 >
             <p className="uppercase tracking-[0.3em] text-white/50 text-sm mb-6">
               Frontend Web Developer
@@ -141,7 +142,7 @@ function App() {
           
 
           {/* Right */}
-          <div className="flex justify-center">
+          <div className="flex justify-center order-first md:order-last mt-30 md:mt-0">
             <div className="w-[320px] h-[320px] rounded-[40px] bg-gradient-to-br from-cyan-400/30 to-white/5 border border-white/10 backdrop-blur-xl flex items-center justify-center shadow-2xl">
               <h1 className="text-8xl font-bold text-cyan-300">
                 Z
