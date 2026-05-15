@@ -19,7 +19,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
           <h1 className="text-2xl font-bold">
-            Zeel Viradiya.
+            Zeel Viradiya
           </h1>
 
           {/* Desktop Menu */}
@@ -267,9 +267,9 @@ function App() {
                   React JS and Tailwind CSS.
                 </p>
 
-                <button className="px-5 py-3 rounded-xl bg-cyan-400 text-black font-semibold group-hover:scale-105 transition">
+                <a href="https://bussiness-website-kappa.vercel.app" target="_blank" className="px-5 py-3 rounded-xl bg-cyan-400 text-black font-semibold group-hover:scale-105 transition">
                   View Project
-                </button>
+                </a>
               </div>
             </motion.div>
 
@@ -309,17 +309,17 @@ function App() {
 
               <div className="p-8">
                 <h3 className="text-2xl font-semibold mb-4">
-                  Dashboard Design
+                  Portfolio Design
                 </h3>
 
                 <p className="text-white/60 leading-relaxed mb-6">
-                  Interactive admin dashboard interface with modern
+                  Interactive portfolio website with modern
                   frontend components.
                 </p>
 
-                <button className="px-5 py-3 rounded-xl bg-orange-400 text-black font-semibold group-hover:scale-105 transition">
+                <a href="/" className="px-5 py-3 rounded-xl bg-orange-400 text-black font-semibold group-hover:scale-105 transition">
                   View Project
-                </button>
+                </a>
               </div>
             </div>
 
